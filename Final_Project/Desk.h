@@ -1,6 +1,6 @@
 /*
   Desk.h - Library for controlling motorized standing desk.
-  Created by Simon Ng, May 29, 2020.
+  Created by Simon Ng, May 29, 2020. Last edit June 5, 2020
 */
 
 #ifndef Desk_h // protects against bugs if user #includes this library twice

@@ -1,3 +1,7 @@
+/*
+  deskMain.ino - Main script for controlling motorized standing desk.
+  Created by Simon Ng, May 29, 2020. Last edit June 5, 2020
+*/
 #include "Desk.h"
 
 Desk myDesk(9, 5, 11, 3, 0); // create a desk object called "myDesk"

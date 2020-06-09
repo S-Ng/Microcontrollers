@@ -1,6 +1,6 @@
 /*
   Desk.cpp - Library for controlling motorized standing desk.
-  Created by Simon Ng, May 29, 2020.
+  Created by Simon Ng, May 29, 2020. Last edit June 5, 2020
 */
 
 #include "Desk.h"
@@ -14,7 +14,7 @@ Desk::Desk(byte PIN_servo1, byte PIN_servo2, byte PIN_servo3, byte PIN_servo4, b
   _PIN_joystick = PIN_joystick; // analog pin
 }
 
-void Desk::initialize() { // to change which PWM pins the servos are attached to, change the following 4 lines
+void Desk::initialize() {
   servo1.attach(_PIN_servo1);
   servo2.attach(_PIN_servo2);
   servo3.attach(_PIN_servo3);
